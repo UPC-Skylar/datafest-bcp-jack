@@ -1,0 +1,17 @@
+# Datos bancarios sensibles: NUNCA subir
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+submissions/*
+!submissions/.gitkeep
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# Entorno y cache
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.ruff_cache/
+.env
